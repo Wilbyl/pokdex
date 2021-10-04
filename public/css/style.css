@@ -1,0 +1,48 @@
+
+body{
+    display: flex;
+    flex-direction:column-reverse;
+    min-height: 100vh;
+    background-image: url("../img/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    vertical-align: bottom;
+    background-position: 0%, 0%;
+    background-size: 100% ,100%;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(247, 6, 6);
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: rgb(255, 255, 255);
+    }
+    ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+h1{ 
+    color: rgb(91, 12, 238);
+    
+}
+h2{ color: rgb(13, 226, 138)}
