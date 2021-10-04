@@ -9,7 +9,14 @@
   </head>
   <body id=all>
     <nav>
-      <img id=ball src="../pokdex/public/img/icon.png" class="image" alt="Poke ball">
+      <section id="message">
+        <p>Mensagem temp</p> <span id="close">&times;</span>
+    </section>
+    <% if(message != "") {  %>
+    <section id="message">
+        <p><%= message %></p> <span id="close">&times;</span>
+    </section>
+<% }  %>
       <ul>
           <li>
               <a href="#">Home</a>

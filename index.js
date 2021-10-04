@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 5300;
 const path = require("path");
+let message = "";
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded());
@@ -15,6 +16,9 @@ app.get("/index", (req, res) => {
 });
 app.get("/index", (req, res) => {
   res.render("../detalhes.ejs");
+});
+app.post("/index", (req, res) => {
+  res.render("../views/view index.ejs");
 });
 app.use(express.static(path.join(__dirname, "public")));
 
