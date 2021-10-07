@@ -14,12 +14,12 @@ app.get("/", (req, res) => {
 app.get("/index", (req, res) => {
   res.render("../cadastro.ejs");
 });
-app.get("/index", (req, res) => {
-  res.render("../detalhes.ejs");
+app.get('/', function (req, res) {
+  res.render('cadastro');
 });
-app.post("/index", (req, res) => {
-  res.render("../views/view index.ejs");
-});
+
+
+
 app.use(express.static(path.join(__dirname, "public")));
 
 app.listen(port, () =>

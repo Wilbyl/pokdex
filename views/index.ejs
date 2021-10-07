@@ -7,33 +7,31 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body id=all>
+  <body id="all">
     <nav>
       <section id="message">
-        <p>Mensagem temp</p> <span id="close">&times;</span>
-    </section>
-    <a id="cadastro" href="/cadastro">CADASTRO</a>
-    <% if(message != "") {  %>
-    <section id="message">
-        <p><%= message %></p> <span id="close">&times;</span>
-    </section>
-<% }  %>
+        <p>Mensagem temp</p>
+        <span id="close">&times;</span>
+      </section>
+      <a id="cadastro" href="/cadastro">CADASTRO</a>
+      <% if(message != "") { %>
+      <section id="message">
+        <p><%= message %></p>
+        <span id="close">&times;</span>
+      </section>
+      <% } %>
       <ul>
-          <li>
-              <a href="#">Home</a>
-          </li>
-          <li>
-              <a href="#cadastro">Cadastro</a>
-          </li>
-          <li>
-              <a href="#Detalhes">Detalhes</a>
-          </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="/cadastro">Cadastro</a>
+        </li>
+        <li>
+          <a href="/Detalhes">Detalhes</a>
+        </li>
       </ul>
-  </nav>
-
-  
-    
-   
+    </nav>
 
     <script src="/js/scrypt.js"></script>
   </body>
