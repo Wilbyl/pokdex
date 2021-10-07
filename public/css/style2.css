@@ -1,0 +1,11 @@
+h2{color:rgb(233, 77, 16)
+
+}
+#all{background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px 0;
+    color: #555555;
+    font: 14px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 10%) inset;
+    min-height: 810px;
+}

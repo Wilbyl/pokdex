@@ -11,12 +11,10 @@ app.get("/", (req, res) => {
   res.render("../index");
 });
 
-app.get("/index", (req, res) => {
+app.get("/cadastro.ejs", (req, res) => {
   res.render("../cadastro.ejs");
 });
-app.get('/', function (req, res) {
-  res.render('cadastro');
-});
+
 
 
 
