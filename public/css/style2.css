@@ -1,11 +1,48 @@
-h2{color:rgb(233, 77, 16)
-
+*{
+    margin: 0;
+    padding: 0;
 }
-#all{background: none repeat scroll 0 0 #FFFFFF;
-    padding: 20px 0;
-    color: #555555;
-    font: 14px/20px 'PT Sans', Arial, Helvetica, sans-serif;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1px 0 rgb(255 255 255 / 10%) inset;
-    min-height: 810px;
+h2{
+    display: flex;
+    color:rgb(233, 77, 16);
+     top: 1rem;
+     left: 0;
+    right: 0;
+     text-align: center;
+}
+body{
+    display: flex;
+    flex-direction:column-reverse;
+    min-height: 100vh;
+    background-image: url("../img/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    vertical-align: bottom;
+    background-position: 0%, 0%;
+    background-size: 100% ,100%;
+}
+div{ 
+    position:static;
+    top: 0.3em;
+    left: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#botao{
+    font-size: 1.2em;
+    background: #8b020228;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(252, 6, 6, 0.5);
+    text-shadow: 1px 1px 1px rgba(252, 6, 6, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
